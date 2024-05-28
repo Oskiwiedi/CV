@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Start</title>
+<title>Herzlich Willkommen</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -9,10 +10,10 @@
         
         <nav>
             <ul id="header-navigation">
-                <li class="header-navigation-item">Start</li>
-                <li class="header-navigation-item">Lebenslauf</li>
-                <li class="header-navigation-item">Vorstellungsvideo</li>
-                <li class="header-navigation-item">Hobbys</li>
+                <li class="header-navigation-item"><a href="index.html">Start</a></li>
+                <li class="header-navigation-item"><a href="lebenslauf.html">Lebenslauf</a></li>
+                <li class="header-navigation-item"><a href="vorstellungsvideo.html">Vorstellungsvideo</a></li>
+                <li class="header-navigation-item"><a href="hobbys.html">Hobbys</a></li>
             </ul>
         </nav>
 
@@ -22,7 +23,11 @@
         </div>
 
         <div id="body-picture">
-            <img src="profilepicture/Profilepicture.png" alt="Bild von Oskar Wiederhold">
+            <picture>
+                <source srcset="profilepicture/Profilepicture_small.png" media="(max-width: 600px)">
+                <source srcset="profilepicture/Profilepicture.png">
+                <img src="profilepicture/Profilepicture.png" style="width:auto;">
+              </picture>
         </div>
 
     </div>
