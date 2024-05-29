@@ -12,12 +12,13 @@ h1 {
 
 #body-text {
     text-align: left;
-    width: 50%;
+    width: 20%;
     margin-top: 100px;
+    margin-right: 70px;
 }
 
 #body-picture{
-    margin-top: 150px;
+    margin-top: 115px;
 
 }
 
@@ -33,9 +34,9 @@ h1 {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 100%;
-        width: 80%;
+        height: 100%;  
         margin: auto;
+        
     }
 
 .header-navigation-item {
@@ -65,5 +66,5 @@ h1 {
 
 #flex-container {
     display: flex;
-    
+    justify-content: center;
   }
