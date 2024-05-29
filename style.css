@@ -11,25 +11,31 @@ h1 {
 }
 
 #body-text {
-    margin-top: 20px;
-    float: left;
-    width: 70%;
+    text-align: left;
+    width: 50%;
+    margin-top: 100px;
 }
 
 #body-picture{
-    margin-top: 20px;
-    float: right;
-    width: 30%;
+    margin-top: 150px;
+
 }
 
 #main {
-    width: 980px;
+    width: 100%;
 }
 
 #header-navigation{
     list-style-type: none;
     padding: 0;
     margin: 0;
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 80%;
+        margin: auto;
     }
 
 .header-navigation-item {
@@ -48,9 +54,16 @@ h1 {
 }
 
 #lebenslauf-text{
-    float: left;
     text-align: center;
     margin-top: 20px;
     width: 70%;
 
 }
+#footerlist{
+    list-style-type: none;
+}
+
+#flex-container {
+    display: flex;
+    
+  }

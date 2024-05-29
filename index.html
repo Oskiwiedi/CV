@@ -6,8 +6,7 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="main">
-        
+    <div>
         <nav>
             <ul id="header-navigation">
                 <li class="header-navigation-item"><a href="index.html">Start</a></li>
@@ -17,19 +16,30 @@
             </ul>
         </nav>
 
-        <div id="body-text">
-            <h1>Herzlich Willkommen</h1>
-            <p> Ich bin 14 Jahre alt, wohne in Witikon, in Zürich. Ich möchte eine Lehre als Informatiker antreten, da es mich interessiert, wie Sachen am Computer(wie Internetseiten) aufgebaut sind. In meiner Freizeit mache ich gerne Sport wie Fussball oder Handball.</p>
-        </div>
 
-        <div id="body-picture">
-            <picture>
-                <source srcset="profilepicture/Profilepicture_small.png" media="(max-width: 600px)">
-                <source srcset="profilepicture/Profilepicture.png">
-                <img src="profilepicture/Profilepicture.png" style="width:auto;">
-              </picture>
-        </div>
 
+        <div id="flex-container">
+            <div id="body-text">
+                <h1>Herzlich Willkommen</h1>
+                <p> Ich bin 14 Jahre alt, wohne in Witikon, in Zürich. Ich möchte eine Lehre als Informatiker antreten, da es mich interessiert, wie Sachen am Computer(wie Internetseiten) aufgebaut sind. In meiner Freizeit mache ich gerne Sport wie Fussball oder Handball.</p>
+            </div>
+            <div>
+                <div id="body-picture">
+                    <picture>
+                        <source srcset="profilepicture/Profilepicture_small.png" media="(max-width: 600px)">
+                        <source srcset="profilepicture/Profilepicture.png">
+                        <img src="profilepicture/Profilepicture.png" style="width:auto;">
+                      </picture>
+                </div>
+        
+                <ul id="footerlist">
+                    <li>E-mail: ow@regeo.ch</li>
+                    <li>Git: Oskarwiedi </li>
+                </ul>
+            </div>
+        </div>
+       
     </div>
+
 </body>
 </html>
