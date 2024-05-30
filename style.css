@@ -78,29 +78,27 @@ h2{
     text-align: center;
 }
 
-.flex-container-2 > div {
-background-color: #f1f1f1;
-width: 600px;
-margin: 10px;
-text-align: center;
-line-height: 75px;
-font-size: 30px;
-display: inline;
-margin-left: 115px;
-margin-right: 125px;
-top: 0px;
-height: 50px;
-justify-content: center;
-  }
-
-#liste-schulischerwerdegang{
-    list-style-type: none;
-    margin-left: 75px;
-    font-size: larger;
+#list-lebenslauf{
+    display: flex;
+    justify-content: center;
 }
 
-#liste-schulischerwerdegang2{
-    list-style-type: none;
-    margin-left: 250px;
-    font-size: larger
+#list-schulischerwerdegang{
+list-style-type: none;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  td, th {
+    text-align: center;
+    padding: 4px;
+    font-size: large;
+}
+
+#vorstellungsvideo{
+display: flex;
 }
