@@ -1,29 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Vorstellungsvideo</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<title>Vorstellungsvideo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Vorstellungsvideo</h1>
-    </div>
     <div id="main">
-        <nav>
-            <ul id="header-navigation">
-                <li class="header-navigation-item"><a href="index.html">Start</a></li>
-                <li class="header-navigation-item"><a href="lebenslauf.html">Lebenslauf</a></li>
-                <li class="header-navigation-item"><a href="vorstellungsvideo.html">Vorstellungsvideo</a></li>
-                <li class="header-navigation-item"><a href="hobbys.html">Hobbys</a></li>
-            </ul>
-        </nav>
+        <div id="topNavigation">
+            <a href="index.html" class="header-navigation-item">Start</a>
+            <a href="lebenslauf.html" class="header-navigation-item">Lebenslauf</a>
+            <a href="vorstellungsvideo.html" class="header-navigation-item-active">Vorstellungsvideo</a>
+            <a href="hobbys.html" class="header-navigation-item">Hobbys</a>
+        </div>
+        <div id="flex-container">
+            <div id="body-text-large">
+                <h1>Vorstellungsvideo</h1>
+                &nbsp;<br />
+                <iframe width="800" height="480" src="https://www.youtube.com/embed/O8cCGfoboWg?si=VMZsSztFYuvBYTFl" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
     </div>
-    <div>
-        <picture id="vorstellungsvideo">
-            <img src="vorstellungvideo/vorstellungsvideo.png" alt="">
-        </picture>
-    </div>
-    
 </body>
 </html>

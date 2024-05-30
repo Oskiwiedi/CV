@@ -1,31 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <title>Hobbys</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+<title>Hobbys</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div id="main">
-        <nav>
-            <ul id="header-navigation">
-                <li class="header-navigation-item"><a href="index.html">Start</a></li>
-                <li class="header-navigation-item"><a href="lebenslauf.html">Lebenslauf</a></li>
-                <li class="header-navigation-item"><a href="vorstellungsvideo.html">Vorstellungsvideo</a></li>
-                <li class="header-navigation-item"><a href="hobbys.html">Hobbys</a></li>
-            </ul>
-        </nav>
+        <div id="topNavigation">
+            <a href="index.html" class="header-navigation-item">Start</a>
+            <a href="lebenslauf.html" class="header-navigation-item">Lebenslauf</a>
+            <a href="vorstellungsvideo.html" class="header-navigation-item">Vorstellungsvideo</a>
+            <a href="hobbys.html" class="header-navigation-item-active">Hobbys</a>
+        </div>
+        <div id="flex-container">
+            <div id="body-text-large">
+                <h1>Hobbys</h1>
+                <div class="hobby">
+                    <img src="img/hobby_fussball.png" class="hobby-image" />
+                    <p class="hobby-text"><b>Fussball spielen</b><br />Wer während der Autofahrt über Handy oder Freisprechanlage telefoniert, fährt wie ein angetrunkener Wagenlenker</p>
+                </div>
+                <div class="hobby">
+                    <img src="img/hobby_handball.png" class="hobby-image" />
+                    <p class="hobby-text"><b>Handball spielen</b><br />Wer während der Autofahrt über Handy oder Freisprechanlage telefoniert, fährt wie ein angetrunkener Wagenlenker</p>
+                </div>
+                <div class="hobby">
+                    <img src="img/hobby_handballschieri.png" class="hobby-image" />
+                    <p class="hobby-text"><b>Handball Schieri</b><br />Wer während der Autofahrt über Handy oder Freisprechanlage telefoniert, fährt wie ein angetrunkener Wagenlenker</p>
+                </div>
+                <p style="clear:both;">&nbsp;</p>
+                <div class="hobby">
+                    <img src="img/hobby_ski.png" class="hobby-image" />
+                    <p class="hobby-text"><b>Skifahren</b><br />Wer während der Autofahrt über Handy oder Freisprechanlage telefoniert, fährt wie ein angetrunkener Wagenlenker</p>
+                </div>                
+                <div class="hobby">
+                    <img src="img/hobby_freunde.png" class="hobby-image" />
+                    <p class="hobby-text"><b>Freunde treffen</b><br />Wer während der Autofahrt über Handy oder Freisprechanlage telefoniert, fährt wie ein angetrunkener Wagenlenker</p>
+                </div>  
+                <div class="hobby">
+                    <img src="img/hobby_gaming.png" class="hobby-image" />
+                    <p class="hobby-text"><b>Gaming</b><br />Wer während der Autofahrt über Handy oder Freisprechanlage telefoniert, fährt wie ein angetrunkener Wagenlenker</p>
+                </div> 
+            </div>
+        </div>
     </div>
-    <div>
-        <picture id="hobby_pictures">
-         <img src="hobby_football/hobby_fussball.png" alt="">  
-         <img src="hobby_handball/hobby_handball.png" alt="">
-         <img src="hobby_handballpfeifen/hobby_handballschieri.png" alt=""> 
-         <img src="hobby_ski/hobby_ski.png" alt="">
-         <img src="hobby_friends/hobby_freunde.png" alt="">
-         <img src="hobby_gaming/Hobby_Gaming.png" alt="">
-        </picture>
-    </div>
-    
 </body>
 </html>
